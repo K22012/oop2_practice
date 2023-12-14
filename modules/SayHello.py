@@ -3,6 +3,7 @@ class SayHello:
         self.target = target
     def say(self):
         print(f"Hello, {self.target}!!")
+        
 if __name__ == '__main__':
     app = SayHello()
     app.say()
